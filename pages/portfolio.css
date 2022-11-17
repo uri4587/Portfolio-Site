@@ -30,7 +30,6 @@ header {
     text-decoration: none;
     color: white;
 }
-
 .nav-list {
     display: flex;
     list-style: none;
@@ -62,24 +61,6 @@ header {
     /* justify-content: space-around; */
 
 }
-#uri {
-    border-radius: 10px;
-    /* margin-left: 40px; */
-    margin-top: 2vh; 
-    height: 30vh; 
-}
-
-#heading {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2vh; 
-    text-align: center;
-    
-}
-
-#name {
-    font-size: 5vh;
-}
 
 footer {
     height: 15vh;
@@ -96,18 +77,6 @@ svg {
 #links {
     margin-left: 30%;
 }
-
-#quote {
-    border-style: solid;
-    border-radius: 10px;
-    font-size: 35px;
-    text-align: center;
-    width: 70vw;
-    font-family: 'Oswald', sans-serif;
-    /* margin-top: 20vh; */
-    
-}
-
 .footer-list {
     display: flex;
     list-style: none;
