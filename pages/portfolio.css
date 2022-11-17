@@ -108,6 +108,25 @@ svg {
         text-align: center;
     }
 
+    #links {
+        margin-left: 10%;
+    }
+
+    .nav-links {
+        padding: 8px 10px;
+        
+    }
+   
+    svg {
+        height: 2.5vh;
+        
+    }
+
+    footer {
+        margin-top: 90px;
+        height: 5vh;
+        
+    }
    
     
     

@@ -89,7 +89,7 @@ footer {
 }
 
 svg {
-    height: 5vh
+    height: 5vh;
     
 }
 
@@ -129,7 +129,7 @@ svg {
     border-radius: 2px;
 }
 
-@media screen and (max-width: 662px) {
+@media screen and (max-width: 560px) {
     header {
         height: 10vh;
     }
@@ -142,8 +142,21 @@ svg {
     #links {
         margin-left: 10%;
     }
+
+    .nav-links {
+        padding: 8px 10px;
+        
+    }
    
-    
-    
+    svg {
+        height: 2.5vh;
+        
+    }
+
+    footer {
+        margin-top: 90px;
+        height: 5vh;
+        
+    }
     
 }

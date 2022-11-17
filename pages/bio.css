@@ -15,7 +15,7 @@ header {
 
 #title {
     font-family: 'Pacifico', cursive;
-    padding: 5px;
+    margin-top: 0px;
 }
 
 #title:hover {
@@ -50,17 +50,8 @@ header {
     background: lightblue;
     border-radius: 2px;
 }
-#homepage {
-    /* margin-top: 20vh; */
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    height: 80vh;
-    
-    /* flex-direction: column; */
-    /* justify-content: space-around; */
 
-}
+
 
 footer {
     height: 15vh;
@@ -98,6 +89,34 @@ svg {
     border-radius: 2px;
 }
 
+h1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    /* margin: 1px; */
+}
+section {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+}
+img {
+    border-radius: 10px;
+}
+#exerpt1 {
+    text-align: center;
+    
+    
+}
+
+#exerpt2 {
+    text-align: center;
+}
+
+#hobby-lang-list {
+    display: flex;
+    
+
+}
 @media screen and (max-width: 662px) {
     header {
         height: 10vh;
@@ -108,7 +127,42 @@ svg {
         text-align: center;
     }
 
+    #links {
+        margin-left: 10%;
+    }
+
+    .nav-links {
+        padding: 8px 10px;
+        
+    }
    
+    svg {
+        height: 2.5vh;
+        
+    }
+
+    footer {
+        margin-top: 10px;
+        height: 18vh;
+        
+    }
+
+    #exerpt1 {
+        margin: 10px;
+    }
+
+    #exerpt2 {
+        margin: 0;
+    }
+
+    h1 {
+        margin: 2%;
+    }
+
+    img {
+        margin: 50px 10%;
+    }
+    
     
     
     
